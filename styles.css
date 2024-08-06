@@ -362,7 +362,9 @@ textarea {
     background-color: #070707;
 }
 
- @media(max-width:991px) {
+@media(max-width:800px) {
+
+
     .menu {
         padding: 20px;
     }
@@ -391,6 +393,7 @@ textarea {
     .header {
         min-height: 0vh;
     }
+
     .header-content {
         padding: 80px 30px 50px 30px;
     }
@@ -419,10 +422,6 @@ textarea {
     .welcome {
         flex-direction: column;
         justify-content: center;
-        display: flex;
-        align-items: center;
-        text-align: center;
-
     }
 
     .welcome-1 {
@@ -433,7 +432,8 @@ textarea {
         width: 100%;
         padding: 30px;
         text-align: center;
-        align-items: center;
+        justify-content: center;
+        margin: 20px 0  ; 
     }
 
     h2 {
@@ -494,7 +494,7 @@ textarea {
     }
 
     .footer-bg {
-        padding: 300px;
+        padding: 30px;
         justify-content: center;
         align-items: center;
         text-align: center;
